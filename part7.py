@@ -10,4 +10,4 @@ df = pd.read_excel(excel_file_path, sheet_name='Sheet1', usecols=[0, -1], skipro
 print(df)
 
 # Export the DataFrame to a new sheet 'NewSheet'
-df.to_excel(excel_file_path, sheet_name='NewSheet', index=False)
+df.to_excel('NewSampleWork.xlsx', sheet_name='NewSheet', index=False)
